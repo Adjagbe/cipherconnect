@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cipherconnect/static/css/main.2fd991f4.css",
+    "main.js": "/cipherconnect/static/js/main.bfd34766.js",
+    "static/js/453.6b6ff40c.chunk.js": "/cipherconnect/static/js/453.6b6ff40c.chunk.js",
+    "static/media/vertical-shot-beautiful-african-american-female-standing-by-wall.jpg": "/cipherconnect/static/media/vertical-shot-beautiful-african-american-female-standing-by-wall.2f1df8861869ce73be2b.jpg",
+    "static/media/homeimg.png": "/cipherconnect/static/media/homeimg.38732c983605b87d6627.png",
+    "static/media/corporate-management.png": "/cipherconnect/static/media/corporate-management.63d3f8ae1c9c2c47039b.png",
+    "static/media/drive-com-la-pub-qui-bouge_0yq746i4gse.jpg": "/cipherconnect/static/media/drive-com-la-pub-qui-bouge_0yq746i4gse.e64f646d52b6b4b6b54c.jpg",
+    "static/media/1.png": "/cipherconnect/static/media/1.2a85debbfa392a6f00bb.png",
+    "index.html": "/cipherconnect/index.html",
+    "main.2fd991f4.css.map": "/cipherconnect/static/css/main.2fd991f4.css.map",
+    "main.bfd34766.js.map": "/cipherconnect/static/js/main.bfd34766.js.map",
+    "453.6b6ff40c.chunk.js.map": "/cipherconnect/static/js/453.6b6ff40c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd991f4.css",
+    "static/js/main.bfd34766.js"
+  ]
+}

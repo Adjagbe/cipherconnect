@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #ECEEF2;
+}
+
+.lineText{
+    line-height: 3em;
+}
+
+.photo_profil{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.photo_profil img {
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+
+.video_moniteur{
+    width:850px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video_moniteur video {
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+
+.annonce {
+    height: 50px; 
+    overflow: hidden;
+    position: relative;
+  }
+  .annonce p {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+  
+      /* Starting position */
+         -moz-transform:translateX(100%);
+         -webkit-transform:translateX(100%);  
+         transform:translateX(100%);
+  
+   /* Apply animation to this element */  
+         -moz-animation: annonce 30s linear infinite;
+         -webkit-animation: annonce 30s linear infinite;
+         animation: annonce 30s linear infinite;
+  }
+  
+  /* Move it (define the animation) */
+        @-moz-keyframes annonce {
+         0%   { -moz-transform: translateX(100%); }
+         100% { -moz-transform: translateX(-100%); }
+        }
+        @-webkit-keyframes annonce {
+         0%   { -webkit-transform: translateX(100%); }
+         100% { -webkit-transform: translateX(-100%); }
+        }
+        @keyframes annonce {
+         0%   { 
+         -moz-transform: translateX(100%); /* Firefox bug fix */
+         -webkit-transform: translateX(100%); /* Firefox bug fix */
+         transform: translateX(100%);         
+         }
+         100% { 
+         -moz-transform: translateX(-100%); /* Firefox bug fix */
+         -webkit-transform: translateX(-100%); /* Firefox bug fix */
+         transform: translateX(-100%); 
+         }
+        }
+
+@media screen and (max-width:400px) {
+    .video_moniteur{
+        width:350px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .video_moniteur{
+        width:700px;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+    
+
+
